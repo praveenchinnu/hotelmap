@@ -1,0 +1,2 @@
+# hotelmap
+Wordpress plugin
