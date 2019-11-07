@@ -1,2 +1,2 @@
 # hotelmap
-Wordpress plugin
+Wordpress plugin hotemap
