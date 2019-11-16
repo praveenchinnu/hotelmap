@@ -1,6 +1,7 @@
-# hotelmap
-Wordpress plugin hotemap
+### WP hotelmap
 
-#branch created
+### Wordpress plugin hotemap
 
-#new branch featured
+### Plugin Name: HotelMap
+### Plugin URI: http://www.HotelMaps.com/
+### Description: Dynamic Generate your maps and shortcodes.
