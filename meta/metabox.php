@@ -234,7 +234,7 @@ wp_nonce_field( basename(__FILE__), 'hotelmap_meta_box_cb' );
 
 <p><label for="hm_pricing"><b>Pricing Display</b></label>
    <select name="hm_pricing">
-       <option <?php if($hm_pricing == 'night'){ echo 'selected="selected"'; }?> value="night">Per Night</option>
+       <option <?php if($hm_pricing == 'nightly'){ echo 'selected="selected"'; }?> value="nightly">Per Night</option>
        <option <?php if($hm_pricing == 'total'){ echo 'selected="selected"'; }?> value="total">Total</option>
    </select>
 </p> <!-- HM Pricing Display -->
