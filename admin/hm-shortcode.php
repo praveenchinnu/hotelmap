@@ -97,6 +97,7 @@ if(!class_exists('HMProShortcode'))
               'disablerentals' => $hm_disable_airbnb,
               'hideenlargemap' => 'true',
               'hideshare' => 'true',
+              'hidebrandlogo' => 'true',
               'openmenu' => 'null' );
 
               if(!$hm_display_onlybookcom){
