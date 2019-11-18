@@ -68,7 +68,7 @@ if(!class_exists('HMProShortcode'))
             }
 
             $hm_plugin_path = plugins_url( 'asset', plugin_basename( dirname( __FILE__ ) ) );
-            $hmdefaultimage = $hm_plugin_path .'/images/hm-marker-icon.png';
+            $hmdefaultimage = $hm_plugin_path .'/images/hmp-default-marker-pin.png';
 
             $hm_markerimage = $first_featured_url_full ? $first_featured_url_full : $hmdefaultimage;
             $hm_navimage = $second_featured_url_full ? $second_featured_url_full : $hmdefaultimage;            
@@ -76,7 +76,7 @@ if(!class_exists('HMProShortcode'))
             $html='';
             $settings22 =  array('width' => $hm_map_width, 'height' => $hm_map_height );
             $hm_client_id = esc_attr( get_option('hm_client_id') );
-            $hmaid = 'colinporter-'. $hm_client_id .'-'. $hm_map_id .'';
+            $hmaid = 'hotelmapspro-'. $hm_client_id .'-'. $hm_map_id .'';
             $s22obj =  array(
               'aid' => $hmaid,
               'venue' => $hm_venue_detail_name,
@@ -95,9 +95,9 @@ if(!class_exists('HMProShortcode'))
               'priceper' => $hm_pricing,
               'disablehotels' => $hm_disable_hotel,
               'disablerentals' => $hm_disable_airbnb,
+              'hidebrandlogo' => 'true',
               'hideenlargemap' => 'true',
               'hideshare' => 'true',
-              'hidebrandlogo' => 'true',
               'openmenu' => 'null' );
 
               if(!$hm_display_onlybookcom){

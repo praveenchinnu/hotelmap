@@ -107,7 +107,7 @@ wp_nonce_field( basename(__FILE__), 'hotelmap_meta_box_cb' );
 </div> <!-- HM Event date and time -->
 
 <h1>Advanced Settings</h1>
-<h3>Desing</h3>
+<h3>Design</h3>
 <div class="hm_col_group">
     <div class="hm_col_1">
         <p><label for="hm_bg_color">Default Background Colour</label></p>
@@ -162,7 +162,7 @@ wp_nonce_field( basename(__FILE__), 'hotelmap_meta_box_cb' );
 
 <p><label for="hm_language"><b>We automatically detect the user's language, but if you wish to force it, we support these languages:</b></label>
    <select name="hm_language" class="hm_language">
-       <option value="">auto</option>
+       <option value="">Auto</option>
        <option <?php if($hm_language == 'en'){ echo 'selected="selected"'; }?> value="en">English</option>
        <option <?php if($hm_language == 'fr'){ echo 'selected="selected"'; }?> value="fr">Français</option>
        <option <?php if($hm_language == 'es'){ echo 'selected="selected"'; }?> value="es">Español</option>
@@ -179,9 +179,167 @@ wp_nonce_field( basename(__FILE__), 'hotelmap_meta_box_cb' );
 
 <p><label for="hm_currency"><b>We automatically detect the user's currency, but if you wish to force it, we support all currencies.</b></label>
    <select name="hm_currency" class="hm_currency">
-       <option value="">auto</option>
-       <option <?php if($hm_currency == 'USD'){ echo 'selected="selected"'; }?> value="USD">USD</option>
+       <option value="">Auto</option>
+       <option <?php if($hm_currency == 'AED'){ echo 'selected="selected"'; }?> value="AED">AED</option>
+       <option <?php if($hm_currency == 'AFN'){ echo 'selected="selected"'; }?> value="AFN">AFN</option>
+       <option <?php if($hm_currency == 'ALL'){ echo 'selected="selected"'; }?> value="ALL">ALL</option>
+       <option <?php if($hm_currency == 'AMD'){ echo 'selected="selected"'; }?> value="AMD">AMD</option>
+       <option <?php if($hm_currency == 'ANG'){ echo 'selected="selected"'; }?> value="ANG">ANG</option>
+       <option <?php if($hm_currency == 'AOA'){ echo 'selected="selected"'; }?> value="AOA">AOA</option>
+       <option <?php if($hm_currency == 'ARS'){ echo 'selected="selected"'; }?> value="ARS">ARS</option>
+       <option <?php if($hm_currency == 'AUD'){ echo 'selected="selected"'; }?> value="AUD">AUD</option>
+       <option <?php if($hm_currency == 'AWG'){ echo 'selected="selected"'; }?> value="AWG">AWG</option>
+       <option <?php if($hm_currency == 'AZN'){ echo 'selected="selected"'; }?> value="AZN">AZN</option>
+       <option <?php if($hm_currency == 'BAM'){ echo 'selected="selected"'; }?> value="BAM">BAM</option>
+       <option <?php if($hm_currency == 'BBD'){ echo 'selected="selected"'; }?> value="BBD">BBD</option>
+       <option <?php if($hm_currency == 'BDT'){ echo 'selected="selected"'; }?> value="BDT">BDT</option>
+       <option <?php if($hm_currency == 'BGN'){ echo 'selected="selected"'; }?> value="BGN">BGN</option>
+       <option <?php if($hm_currency == 'BHD'){ echo 'selected="selected"'; }?> value="BHD">BHD</option>
+       <option <?php if($hm_currency == 'BIF'){ echo 'selected="selected"'; }?> value="BIF">BIF</option>
+       <option <?php if($hm_currency == 'BMD'){ echo 'selected="selected"'; }?> value="BMD">BMD</option>
+       <option <?php if($hm_currency == 'BND'){ echo 'selected="selected"'; }?> value="BND">BND</option>
+       <option <?php if($hm_currency == 'BOB'){ echo 'selected="selected"'; }?> value="BOB">BOB</option>
+       <option <?php if($hm_currency == 'BRL'){ echo 'selected="selected"'; }?> value="BRL">BRL</option>
+       <option <?php if($hm_currency == 'BSD'){ echo 'selected="selected"'; }?> value="BSD">BSD</option>
+       <option <?php if($hm_currency == 'BTN'){ echo 'selected="selected"'; }?> value="BTN">BTN</option>
+       <option <?php if($hm_currency == 'BWP'){ echo 'selected="selected"'; }?> value="BWP">BWP</option>
+       <option <?php if($hm_currency == 'BYN'){ echo 'selected="selected"'; }?> value="BYN">BYN</option>
+       <option <?php if($hm_currency == 'BZD'){ echo 'selected="selected"'; }?> value="BZD">BZD</option>
+       <option <?php if($hm_currency == 'CAD'){ echo 'selected="selected"'; }?> value="CAD">CAD</option>
+       <option <?php if($hm_currency == 'CDF'){ echo 'selected="selected"'; }?> value="CDF">CDF</option>
+       <option <?php if($hm_currency == 'CHF'){ echo 'selected="selected"'; }?> value="CHF">CHF</option>
+       <option <?php if($hm_currency == 'CLP'){ echo 'selected="selected"'; }?> value="CLP">CLP</option>
+       <option <?php if($hm_currency == 'CNH'){ echo 'selected="selected"'; }?> value="CNH">CNH</option>
+       <option <?php if($hm_currency == 'CNY'){ echo 'selected="selected"'; }?> value="CNY">CNY / CNH</option>
+       <option <?php if($hm_currency == 'COP'){ echo 'selected="selected"'; }?> value="COP">COP</option>
+       <option <?php if($hm_currency == 'CRC'){ echo 'selected="selected"'; }?> value="CRC">CRC</option>
+       <option <?php if($hm_currency == 'CUC'){ echo 'selected="selected"'; }?> value="CUC">CUC</option>
+       <option <?php if($hm_currency == 'CUP'){ echo 'selected="selected"'; }?> value="CUP">CUP</option>
+       <option <?php if($hm_currency == 'CVE'){ echo 'selected="selected"'; }?> value="CVE">CVE</option>
+       <option <?php if($hm_currency == 'CZK'){ echo 'selected="selected"'; }?> value="CZK">CZK</option>
+       <option <?php if($hm_currency == 'DJF'){ echo 'selected="selected"'; }?> value="DJF">DJF</option>
+       <option <?php if($hm_currency == 'DKK'){ echo 'selected="selected"'; }?> value="DKK">DKK</option>
+       <option <?php if($hm_currency == 'DOP'){ echo 'selected="selected"'; }?> value="DOP">DOP</option>
+       <option <?php if($hm_currency == 'DZD'){ echo 'selected="selected"'; }?> value="DZD">DZD</option>
+       <option <?php if($hm_currency == 'EGP'){ echo 'selected="selected"'; }?> value="EGP">EGP</option>
+       <option <?php if($hm_currency == 'ERN'){ echo 'selected="selected"'; }?> value="ERN">ERN</option>
+       <option <?php if($hm_currency == 'ETB'){ echo 'selected="selected"'; }?> value="ETB">ETB</option>
+       <option <?php if($hm_currency == 'EUR'){ echo 'selected="selected"'; }?> value="EUR">EUR</option>
+       <option <?php if($hm_currency == 'FJD'){ echo 'selected="selected"'; }?> value="FJD">FJD</option>
+       <option <?php if($hm_currency == 'FKP'){ echo 'selected="selected"'; }?> value="FKP">FKP</option>
        <option <?php if($hm_currency == 'GBP'){ echo 'selected="selected"'; }?> value="GBP">GBP</option>
+       <option <?php if($hm_currency == 'GEL'){ echo 'selected="selected"'; }?> value="GEL">GEL</option>
+       <option <?php if($hm_currency == 'GGP'){ echo 'selected="selected"'; }?> value="GGP">GGP</option>
+       <option <?php if($hm_currency == 'GHS'){ echo 'selected="selected"'; }?> value="GHS">GHS</option>
+       <option <?php if($hm_currency == 'GIP'){ echo 'selected="selected"'; }?> value="GIP">GIP</option>
+       <option <?php if($hm_currency == 'GMD'){ echo 'selected="selected"'; }?> value="GMD">GMD</option>
+       <option <?php if($hm_currency == 'GNF'){ echo 'selected="selected"'; }?> value="GNF">GNF</option>
+       <option <?php if($hm_currency == 'GTQ'){ echo 'selected="selected"'; }?> value="GTQ">GTQ</option>
+       <option <?php if($hm_currency == 'GYD'){ echo 'selected="selected"'; }?> value="GYD">GYD</option>
+       <option <?php if($hm_currency == 'HKD'){ echo 'selected="selected"'; }?> value="HKD">HKD</option>
+       <option <?php if($hm_currency == 'HNL'){ echo 'selected="selected"'; }?> value="HNL">HNL</option>
+       <option <?php if($hm_currency == 'HRK'){ echo 'selected="selected"'; }?> value="HRK">HRK</option>
+       <option <?php if($hm_currency == 'HTG'){ echo 'selected="selected"'; }?> value="HTG">HTG</option>
+       <option <?php if($hm_currency == 'HUF'){ echo 'selected="selected"'; }?> value="HUF">HUF</option>
+       <option <?php if($hm_currency == 'IDR'){ echo 'selected="selected"'; }?> value="IDR">IDR</option>
+       <option <?php if($hm_currency == 'ILS'){ echo 'selected="selected"'; }?> value="ILS">ILS</option>
+       <option <?php if($hm_currency == 'IMP'){ echo 'selected="selected"'; }?> value="IMP">IMP</option>
+       <option <?php if($hm_currency == 'INR'){ echo 'selected="selected"'; }?> value="INR">INR</option>
+       <option <?php if($hm_currency == 'IQD'){ echo 'selected="selected"'; }?> value="IQD">IQD</option>
+       <option <?php if($hm_currency == 'IRR'){ echo 'selected="selected"'; }?> value="IRR">IRR</option>
+       <option <?php if($hm_currency == 'ISK'){ echo 'selected="selected"'; }?> value="ISK">ISK</option>
+       <option <?php if($hm_currency == 'JEP'){ echo 'selected="selected"'; }?> value="JEP">JEP</option>
+       <option <?php if($hm_currency == 'JMD'){ echo 'selected="selected"'; }?> value="JMD">JMD</option>
+       <option <?php if($hm_currency == 'JOD'){ echo 'selected="selected"'; }?> value="JOD">JOD</option>
+       <option <?php if($hm_currency == 'JPY'){ echo 'selected="selected"'; }?> value="JPY">JPY</option>
+       <option <?php if($hm_currency == 'KES'){ echo 'selected="selected"'; }?> value="KES">KES</option>
+       <option <?php if($hm_currency == 'KGS'){ echo 'selected="selected"'; }?> value="KGS">KGS</option>
+       <option <?php if($hm_currency == 'KHR'){ echo 'selected="selected"'; }?> value="KHR">KHR</option>
+       <option <?php if($hm_currency == 'KMF'){ echo 'selected="selected"'; }?> value="KMF">KMF</option>
+       <option <?php if($hm_currency == 'KPW'){ echo 'selected="selected"'; }?> value="KPW">KPW</option>
+       <option <?php if($hm_currency == 'KRW'){ echo 'selected="selected"'; }?> value="KRW">KRW</option>
+       <option <?php if($hm_currency == 'KWD'){ echo 'selected="selected"'; }?> value="KWD">KWD</option>
+       <option <?php if($hm_currency == 'KYD'){ echo 'selected="selected"'; }?> value="KYD">KYD</option>
+       <option <?php if($hm_currency == 'KZT'){ echo 'selected="selected"'; }?> value="KZT">KZT</option>
+       <option <?php if($hm_currency == 'LAK'){ echo 'selected="selected"'; }?> value="LAK">LAK</option>
+       <option <?php if($hm_currency == 'LBP'){ echo 'selected="selected"'; }?> value="LBP">LBP</option>
+       <option <?php if($hm_currency == 'LKR'){ echo 'selected="selected"'; }?> value="LKR">LKR</option>
+       <option <?php if($hm_currency == 'LRD'){ echo 'selected="selected"'; }?> value="LRD">LRD</option>
+       <option <?php if($hm_currency == 'LSL'){ echo 'selected="selected"'; }?> value="LSL">LSL</option>
+       <option <?php if($hm_currency == 'LYD'){ echo 'selected="selected"'; }?> value="LYD">LYD</option>
+       <option <?php if($hm_currency == 'MAD'){ echo 'selected="selected"'; }?> value="MAD">MAD</option>
+       <option <?php if($hm_currency == 'MDL'){ echo 'selected="selected"'; }?> value="MDL">MDL</option>
+       <option <?php if($hm_currency == 'MGA'){ echo 'selected="selected"'; }?> value="MGA">MGA</option>
+       <option <?php if($hm_currency == 'MKD'){ echo 'selected="selected"'; }?> value="MKD">MKD</option>
+       <option <?php if($hm_currency == 'MMK'){ echo 'selected="selected"'; }?> value="MMK">MMK</option>
+       <option <?php if($hm_currency == 'MNT'){ echo 'selected="selected"'; }?> value="MNT">MNT</option>
+       <option <?php if($hm_currency == 'MOP'){ echo 'selected="selected"'; }?> value="MOP">MOP</option>
+       <option <?php if($hm_currency == 'MRO'){ echo 'selected="selected"'; }?> value="MRO">MRO</option>
+       <option <?php if($hm_currency == 'MRU'){ echo 'selected="selected"'; }?> value="MRU">MRU</option>
+       <option <?php if($hm_currency == 'MUR'){ echo 'selected="selected"'; }?> value="MUR">MUR</option>
+       <option <?php if($hm_currency == 'MVR'){ echo 'selected="selected"'; }?> value="MVR">MVR</option>
+       <option <?php if($hm_currency == 'MWK'){ echo 'selected="selected"'; }?> value="MWK">MWK</option>
+       <option <?php if($hm_currency == 'MXN'){ echo 'selected="selected"'; }?> value="MXN">MXN</option>
+       <option <?php if($hm_currency == 'MYR'){ echo 'selected="selected"'; }?> value="MYR">MYR</option>
+       <option <?php if($hm_currency == 'MZN'){ echo 'selected="selected"'; }?> value="MZN">MZN</option>
+       <option <?php if($hm_currency == 'NAD'){ echo 'selected="selected"'; }?> value="NAD">NAD</option>
+       <option <?php if($hm_currency == 'NGN'){ echo 'selected="selected"'; }?> value="NGN">NGN</option>
+       <option <?php if($hm_currency == 'NIO'){ echo 'selected="selected"'; }?> value="NIO">NIO</option>
+       <option <?php if($hm_currency == 'NOK'){ echo 'selected="selected"'; }?> value="NOK">NOK</option>
+       <option <?php if($hm_currency == 'NPR'){ echo 'selected="selected"'; }?> value="NPR">NPR</option>
+       <option <?php if($hm_currency == 'NZD'){ echo 'selected="selected"'; }?> value="NZD">NZD</option>
+       <option <?php if($hm_currency == 'OMR'){ echo 'selected="selected"'; }?> value="OMR">OMR</option>
+       <option <?php if($hm_currency == 'PAB'){ echo 'selected="selected"'; }?> value="PAB">PAB</option>
+       <option <?php if($hm_currency == 'PEN'){ echo 'selected="selected"'; }?> value="PEN">PEN</option>
+       <option <?php if($hm_currency == 'PGK'){ echo 'selected="selected"'; }?> value="PGK">PGK</option>
+       <option <?php if($hm_currency == 'PHP'){ echo 'selected="selected"'; }?> value="PHP">PHP</option>
+       <option <?php if($hm_currency == 'PKR'){ echo 'selected="selected"'; }?> value="PKR">PKR</option>
+       <option <?php if($hm_currency == 'PLN'){ echo 'selected="selected"'; }?> value="PLN">PLN</option>
+       <option <?php if($hm_currency == 'PYG'){ echo 'selected="selected"'; }?> value="PYG">PYG</option>
+       <option <?php if($hm_currency == 'QAR'){ echo 'selected="selected"'; }?> value="QAR">QAR</option>
+       <option <?php if($hm_currency == 'RON'){ echo 'selected="selected"'; }?> value="RON">RON</option>
+       <option <?php if($hm_currency == 'RSD'){ echo 'selected="selected"'; }?> value="RSD">RSD</option>
+       <option <?php if($hm_currency == 'RUB'){ echo 'selected="selected"'; }?> value="RUB">RUB</option>
+       <option <?php if($hm_currency == 'RWF'){ echo 'selected="selected"'; }?> value="RWF">RWF</option>
+       <option <?php if($hm_currency == 'SAR'){ echo 'selected="selected"'; }?> value="SAR">SAR</option>
+       <option <?php if($hm_currency == 'SBD'){ echo 'selected="selected"'; }?> value="SBD">SBD</option>
+       <option <?php if($hm_currency == 'SCR'){ echo 'selected="selected"'; }?> value="SCR">SCR</option>
+       <option <?php if($hm_currency == 'SDG'){ echo 'selected="selected"'; }?> value="SDG">SDG</option>
+       <option <?php if($hm_currency == 'SEK'){ echo 'selected="selected"'; }?> value="SEK">SEK</option>
+       <option <?php if($hm_currency == 'SGD'){ echo 'selected="selected"'; }?> value="SGD">SGD</option>
+       <option <?php if($hm_currency == 'SHP'){ echo 'selected="selected"'; }?> value="SHP">SHP</option>
+       <option <?php if($hm_currency == 'SLL'){ echo 'selected="selected"'; }?> value="SLL">SLL</option>
+       <option <?php if($hm_currency == 'SOS'){ echo 'selected="selected"'; }?> value="SOS">SOS</option>
+       <option <?php if($hm_currency == 'SRD'){ echo 'selected="selected"'; }?> value="SRD">SRD</option>
+       <option <?php if($hm_currency == 'SSP'){ echo 'selected="selected"'; }?> value="SSP">SSP</option>
+       <option <?php if($hm_currency == 'STD'){ echo 'selected="selected"'; }?> value="STD">STD</option>
+       <option <?php if($hm_currency == 'STN'){ echo 'selected="selected"'; }?> value="STN">STN</option>
+       <option <?php if($hm_currency == 'SVC'){ echo 'selected="selected"'; }?> value="SVC">SVC</option>
+       <option <?php if($hm_currency == 'SYP'){ echo 'selected="selected"'; }?> value="SYP">SYP</option>
+       <option <?php if($hm_currency == 'SZL'){ echo 'selected="selected"'; }?> value="SZL">SZL</option>
+       <option <?php if($hm_currency == 'THB'){ echo 'selected="selected"'; }?> value="THB">THB</option>
+       <option <?php if($hm_currency == 'TJS'){ echo 'selected="selected"'; }?> value="TJS">TJS</option>
+       <option <?php if($hm_currency == 'TMT'){ echo 'selected="selected"'; }?> value="TMT">TMT</option>
+       <option <?php if($hm_currency == 'TND'){ echo 'selected="selected"'; }?> value="TND">TND</option>
+       <option <?php if($hm_currency == 'TOP'){ echo 'selected="selected"'; }?> value="TOP">TOP</option>
+       <option <?php if($hm_currency == 'TRY'){ echo 'selected="selected"'; }?> value="TRY">TRY</option>
+       <option <?php if($hm_currency == 'TTD'){ echo 'selected="selected"'; }?> value="TTD">TTD</option>
+       <option <?php if($hm_currency == 'TWD'){ echo 'selected="selected"'; }?> value="TWD">TWD</option>
+       <option <?php if($hm_currency == 'TZS'){ echo 'selected="selected"'; }?> value="TZS">TZS</option>
+       <option <?php if($hm_currency == 'UAH'){ echo 'selected="selected"'; }?> value="UAH">UAH</option>
+       <option <?php if($hm_currency == 'UGX'){ echo 'selected="selected"'; }?> value="UGX">UGX</option>
+       <option <?php if($hm_currency == 'USD'){ echo 'selected="selected"'; }?> value="USD">USD</option>
+       <option <?php if($hm_currency == 'UYU'){ echo 'selected="selected"'; }?> value="UYU">UYU</option>
+       <option <?php if($hm_currency == 'UZS'){ echo 'selected="selected"'; }?> value="UZS">UZS</option>
+       <option <?php if($hm_currency == 'VEF'){ echo 'selected="selected"'; }?> value="VEF">VEF</option>
+       <option <?php if($hm_currency == 'VES'){ echo 'selected="selected"'; }?> value="VES">VES</option>
+       <option <?php if($hm_currency == 'VND'){ echo 'selected="selected"'; }?> value="VND">VND</option>
+       <option <?php if($hm_currency == 'VUV'){ echo 'selected="selected"'; }?> value="VUV">VUV</option>
+       <option <?php if($hm_currency == 'WST'){ echo 'selected="selected"'; }?> value="WST">WST</option>
+       <option <?php if($hm_currency == 'YER'){ echo 'selected="selected"'; }?> value="YER">YER</option>
+       <option <?php if($hm_currency == 'ZAR'){ echo 'selected="selected"'; }?> value="ZAR">ZAR</option>
+       <option <?php if($hm_currency == 'ZMW'){ echo 'selected="selected"'; }?> value="ZMW">ZMW</option>
+       <option <?php if($hm_currency == 'ZWL'){ echo 'selected="selected"'; }?> value="ZWL">ZWL</option>
    </select>
 </p> <!-- HM User currency -->
 

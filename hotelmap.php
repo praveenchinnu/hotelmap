@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: HotelMap
-Plugin URI: http://www.HotelMaps.com/
-Description: Dynamic Generate your maps and shortcodes.
-Version: 1.0.0
-Author: HotelMaps Developer
-Author URI: http://www.HotelMaps.com/
+Plugin Name: Hotel Maps Pro
+Plugin URI: https://www.hotelmapspro.com/
+Description: Hotel Maps Pro allows you to add an unlimited number of maps to your website to help your attendees find nearby hotels and accommodation at the best prices.
+Version: 1.0.13
+Author: Hotel Maps Pro
+Author URI: https://www.hotelmapspro.com/
 Update Server: 
 Min WP Version: 3.2.1
 Max WP Version: 
